@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="services.css">
+    <title>services</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>port<span>folio</span></h1>
+            <div class="table">
+            <ul>
+                <li><a href="index.html">Accuiel</a></li>
+                <li><a href="a_propos.html">A propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projets.html">projets</a></li>
+                <li><a href="contact.html">contactez-moi</a></li>
+            </ul>
+        </div>
+        <img src="images/index.jpg" alt="menu" class="menu-nav">
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Mes <span>services</span></h1>
+        <h3>Lorem ipsun is simply dummy text of the printing and typesetting industry</h3>
+        <div class="services">
+        <div class="grid1">
+            <div class="cercle"></div>
+            <h3>web design</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+        <div class="grid2">
+            <div class="cercle" data-tilt></div>
+            <h3 data-tilt>developpement web/mobile</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+        <div class="grid3">
+            <div class="cercle"></div>
+            <h3>developpement logiciel</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+        <div class="grid4">
+            <div class="cercle"></div>
+            <h3>graphisme</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+        <div class="grid5">
+            <div class="cercle"></div>
+            <h3>SEO</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+        <div class="grid6">
+            <div class="cercle" data-tilt></div>
+            <h3 data-tilt>marketing digital</h3>
+            <p>Lorem ipsun is simply dummy text of the <br>
+                 printing and typesetting industry</p>
+        </div>
+    </div>
+    </div>
+    <script>
+        const menuHamburger = document.querySelector(".menu-nav")
+        const navLinks = document.querySelector(".table")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+   </script>
+   
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Amara_konate</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>port<span>folio</span></h1>
+        <div class="table">
+             <ul>
+                <li><a href="index.html">Accuiel</a></li>
+                <li><a href="a_propos.html">A propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projets.html">projets</a></li>
+                <li><a href="contact.html">contactez-moi</a></li>
+             </ul>
+        </div>
+        <img src="images/index.png" alt="menu" class="menu-nav">
+
+        </nav>
+    </header>
+    <div class="contenair">
+        <div class="presentation">
+            <h1>salut !</h1>
+            <h3>bienvenue dans mon site web</h3>
+            <p>je suis<span>AMARA KONATE</span>;</p>
+            <p>Dévéloppeur Web/Mobile Full stack <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Necessitatibus, esse?
+            </p>
+            <a href="images/AMARA.pdf">Téléchargez Mon cv</a>
+        </div>
+        <div class="images">
+            <p>
+                <img src="images/amara1_clipdrop-relight_clipdrop-background-removal.png" alt="" width="25%" >
+            </p>
+        </div>
+    </div>
+</body>
+<script>
+        const menuHamburger = document.querySelector(".menu-nav")
+        const navLinks = document.querySelector(".table")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html>

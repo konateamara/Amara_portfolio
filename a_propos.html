@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a_propos.css">
+    <title>a_propos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>port<span>folio</span></h1>
+            <div class="table">
+            <ul>
+                <li><a href="index.html">Accuiel</a></li>
+                <li><a href="a_propos.html">A propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projets.html">projets</a></li>
+                <li><a href="contact.html">contactez-moi</a></li>
+            </ul>
+        </div>
+        <img src="images/index.jpg" alt="menu" class="menu-nav">
+        </nav>
+    </header>
+    <div class="container">
+        <div class="propos">
+            <h1>A propos de moi</h1>
+            <p>Lorem ipsum is simply summy text of the <br> 
+                printing and typesetting industry.Lorem ipsum has <br>
+                been the industry’s standard dummy text ever since the 1500s
+            </p>
+            <p>
+                Lorem ipsum is simply summy text of the <br> 
+                printing and typesetting industry.Lorem ipsum has <br>
+                been the industry’s standard dummy text ever since the 1500s
+            </p>
+            <p>Lorem ipsum is simply summy text of the <br> 
+                printing and typesetting industry.Lorem ipsum has <br>
+                been the industry’s standard dummy text ever since the 1500s
+            </p>
+        </div>
+        <div class="images">
+            <p><img src="images/amara1_clipdrop-relight_clipdrop-background-removal.png" alt=""></p>
+        </div>
+    </div>
+    <script>
+        const menuHamburger = document.querySelector(".menu-nav")
+        const navLinks = document.querySelector(".table")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+   </script>
+</body>
+</html>
